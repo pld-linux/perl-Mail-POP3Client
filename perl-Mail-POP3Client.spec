@@ -7,6 +7,7 @@ Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mail/POP3Client-%{version}.tar.gz
+# Source0-md5:	baf932b842bc5e1c8283548fcdb72ab7
 Patch0:		%{name}-Digest-MD5.patch
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
