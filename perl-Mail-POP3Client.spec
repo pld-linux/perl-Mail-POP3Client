@@ -27,7 +27,7 @@ Mail::POP3Client - klient POP3 dla perla.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
