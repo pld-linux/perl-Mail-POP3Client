@@ -1,14 +1,15 @@
 %include	/usr/lib/rpm/macros.perl
+%define	pdir	Mail
+%define	pname	POP3Client
 Summary:	Mail::POP3Client perl module
 Summary(pl):	Modu³ perla Mail::POP3Client
 Name:		perl-Mail-POP3Client
-Version:	2.9
-Release:	3
+Version:	2.16
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Mail/POP3Client-%{version}.tar.gz
-# Source0-md5:	baf932b842bc5e1c8283548fcdb72ab7
-Patch0:		%{name}-Digest-MD5.patch
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+# Source0-md5:	099791880b0638abca33ff016832d7e4
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Digest-MD5
@@ -22,8 +23,7 @@ Mail::POP3Client - Perl POP3 client.
 Mail::POP3Client - klient POP3 dla perla.
 
 %prep
-%setup -q -n POP3Client-%{version}
-%patch0 -p1
+%setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
 %{__perl} Makefile.PL \
