@@ -2,9 +2,9 @@
 Summary:	Mail-POP3Client perl module
 Summary(pl):	Modu³ perla Mail-POP3Client
 Name:		perl-Mail-POP3Client
-Version:	2.0
-Release:	3
-Copyright:	GPL
+Version:	2.5
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/POP3Client-%{version}.tar.gz
