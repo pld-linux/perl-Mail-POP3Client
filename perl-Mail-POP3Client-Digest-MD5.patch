@@ -1,0 +1,17 @@
+diff -ur POP3Client-2.7.orig/POP3Client.pm POP3Client-2.7/POP3Client.pm
+--- POP3Client-2.7.orig/POP3Client.pm	Mon Sep 25 02:29:03 2000
++++ POP3Client-2.7/POP3Client.pm	Tue May  1 00:29:55 2001
+@@ -377,11 +377,11 @@
+ #******************************************************************************
+ sub Login_APOP
+ {
+-  require MD5;
++  require Digest::MD5;
+   
+   my $me = shift;
+   my $s = $me->Socket();
+-  my $hash= MD5->hexhash ($me->{MESG_ID} . $me->Pass);
++  my $hash= Digest::MD5->md5_hex ($me->{MESG_ID} . $me->Pass);
+   
+   $me->_sockprint( "APOP " , $me->User , ' ', $hash, $me->EOL );
+   my $line = $me->_sockread();
