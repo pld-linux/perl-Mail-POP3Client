@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Mail-POP3Client perl module
-Summary(pl):	Modu³ perla Mail-POP3Client
+Summary:	Mail::POP3Client perl module
+Summary(pl):	Modu³ perla Mail::POP3Client
 Name:		perl-Mail-POP3Client
 Version:	2.9
 Release:	2
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Mail-POP3Client - Perl POP3 client.
+Mail::POP3Client - Perl POP3 client.
 
 %description -l pl
-Mail-POP3Client - klient POP3 dla perla.
+Mail::POP3Client - klient POP3 dla perla.
 
 %prep
 %setup -q -n POP3Client-%{version}
