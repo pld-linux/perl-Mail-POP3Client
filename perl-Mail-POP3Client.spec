@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Mail::POP3Client
 Name:		perl-Mail-POP3Client
 Version:	2.16
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	099791880b0638abca33ff016832d7e4
