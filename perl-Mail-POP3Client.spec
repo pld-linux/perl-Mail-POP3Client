@@ -2,8 +2,8 @@
 Summary:	Mail-POP3Client perl module
 Summary(pl):	Modu³ perla Mail-POP3Client
 Name:		perl-Mail-POP3Client
-Version:	2.7
-Release:	3
+Version:	2.9
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -11,7 +11,7 @@ Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Mail/POP3Client-%{version}.tar.gz
 Patch0:		%{name}-Digest-MD5.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-Digest-MD5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -44,5 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Mail/POP3Client.pm
-%{perl_sitelib}/auto/Mail/POP3Client
 %{_mandir}/man3/*
