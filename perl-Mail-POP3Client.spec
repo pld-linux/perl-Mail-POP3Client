@@ -6,7 +6,7 @@ Version:	2.9
 Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Mail/POP3Client-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Mail/POP3Client-%{version}.tar.gz
 Patch0:		%{name}-Digest-MD5.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6.1
