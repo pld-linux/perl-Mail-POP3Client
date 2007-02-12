@@ -2,7 +2,7 @@
 %define		pdir	Mail
 %define		pnam	POP3Client
 Summary:	Mail::POP3Client perl module
-Summary(pl):	Modu≥ perla Mail::POP3Client
+Summary(pl.UTF-8):   Modu≈Ç perla Mail::POP3Client
 Name:		perl-Mail-POP3Client
 Version:	2.16
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Mail::POP3Client - Perl POP3 client.
 
-%description -l pl
+%description -l pl.UTF-8
 Mail::POP3Client - klient POP3 dla perla.
 
 %prep
