@@ -4,13 +4,13 @@
 Summary:	Mail::POP3Client perl module
 Summary(pl.UTF-8):	Moduł perla Mail::POP3Client
 Name:		perl-Mail-POP3Client
-Version:	2.16
+Version:	2.17
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	099791880b0638abca33ff016832d7e4
+# Source0-md5:	3cb3b7baae3ed510c8ddf68a7532260e
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Digest-MD5
