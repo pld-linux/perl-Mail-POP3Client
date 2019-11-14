@@ -4,13 +4,13 @@
 Summary:	Mail::POP3Client - Perl POP3 client
 Summary(pl.UTF-8):	Mail::POP3Client - klient POP3 dla Perla
 Name:		perl-Mail-POP3Client
-Version:	2.18
+Version:	2.19
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	27b99775072f6ad4b585f7484c47405d
+# Source0-md5:	8ee509c9118fdd65a6d777b3f5f1c835
 URL:		http://search.cpan.org/dist/Mail-POP3Client/
 BuildRequires:	perl-Digest-MD5
 BuildRequires:	perl-devel >= 1:5.8.0
