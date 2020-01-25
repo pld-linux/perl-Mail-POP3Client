@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Mail
 %define		pnam	POP3Client
 Summary:	Mail::POP3Client - Perl POP3 client
